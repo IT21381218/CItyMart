@@ -1,0 +1,39 @@
+.Custhome {
+    background: linear-gradient(135deg, #ff936b, #8b5fbf, #b16502);
+    background-blend-mode: overlay;
+}
+
+.home-container {
+    padding: 10px 100px;
+
+}
+
+/* .Custhome {
+    background: linear-gradient(135deg, #ff936b, #8b5fbf);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite, colorTransition 8s ease infinite;
+    opacity: 0.9; 
+    filter: blur(5px); 
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes colorTransition {
+    0% {
+        filter: hue-rotate(0deg); 
+    }
+    100% {
+        filter: hue-rotate(360deg); 
+    }
+} */
+
+
+
+  

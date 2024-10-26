@@ -1,0 +1,33 @@
+.workout-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 15px; /* Reduced margin bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure it takes full width */
+    max-width: 400px; /* Limit maximum width */
+}
+
+.title {
+    font-weight: bold;
+    color: #0297b1;
+    margin-bottom: 5px; /* Reduced margin bottom */
+    font-size: 1.3rem; /* Reduced font size */
+}
+
+.details p {
+    margin: 3px 0; /* Reduced margin */
+    font-size: 0.9rem; /* Reduced font size */
+}
+
+.created-at {
+    font-style: italic;
+    color: #666;
+    font-size: 0.8rem; /* Reduced font size */
+}
+
+
+.details strong {
+    color: #000000; /* Set the color to black */
+}

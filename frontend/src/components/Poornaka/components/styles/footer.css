@@ -1,0 +1,76 @@
+/* Footer Styles */
+.footer {
+  
+  background-color: #ffffffd3; /* Dark background color */
+  color: #0297b1; /* Text color */
+  padding: 40px 0;
+  border-top: 1px solid #ff4400; /* Darker border */
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 25px; /* Larger font size */
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif; /* Custom font */
+  letter-spacing: 1px; /* Increased letter spacing */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  font-weight: bold;
+  display: block;
+  color: #000000; /* Lighter text color */
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-family: 'Roboto', sans-serif; /* Custom font */
+  font-size: 16px; /* Font size */
+}
+
+.footer-link:hover {
+  color: #ff4400; /* Text color on hover */
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Animation */
+.footer-link {
+  position: relative;
+}
+
+.footer-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Height of the animation line */
+  bottom: -5px; /* Position the line below the link */
+  left: 0;
+  background-color: #ff6600; /* Animation line color */
+  visibility: hidden;
+  transform: scaleX(0); /* Initially, scale the line to 0 */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+}
+
+.footer-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1); /* Scale the line to full width on hover */
+}

@@ -1,0 +1,50 @@
+.micnav {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffc7;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #transcript {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .MicNavBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ff936bb6; /* Green */
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
+}
+
+/* Hover effect */
+.MicNavBtn:hover {
+    background-color: #ff4400; /* Darker green */
+}
+
+  
+  p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .micnav {
+      max-width: 300px;
+    }
+  }
+  

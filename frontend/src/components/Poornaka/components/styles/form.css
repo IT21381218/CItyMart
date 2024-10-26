@@ -1,0 +1,83 @@
+.create {
+  max-width: 500px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #0297b1;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+  width: calc(100% - 40px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.input-group button {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #ff936bb6;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #ff4400;
+}
+
+.error {
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+/* New styles for positioning on the right side */
+.create {
+  float: right;
+  margin-right: 20px; /* Adjust spacing from the right side */
+}
+
+.AddItem {
+  display: block;
+  margin: 20px auto; /* Center the button horizontally with top and bottom margin */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff936bb6; /* Green */
+  color: white;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
+}
+
+/* Hover effect */
+.AddItem:hover {
+  background-color: #ff4400; /* Darker green */
+}

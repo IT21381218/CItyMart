@@ -1,0 +1,98 @@
+.feedbackPage{
+
+    background: linear-gradient(135deg, #ff936b, #8b5fbf, #b16502);
+        background-blend-mode: overlay;
+}
+
+
+.Feedback {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Feedback h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0297b1; 
+    font-weight: bold;
+}
+
+.feedback-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Ensure form elements take full width */
+}
+
+.input-with-mic {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure input fields take full width */
+}
+
+.input-with-mic input,
+.input-with-mic textarea {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-with-mic input:focus,
+.input-with-mic textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.input-with-mic button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff936bb6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-with-mic button:hover {
+    background-color: #ff4400;
+}
+
+.feedback-submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff936bb6; /* Green */
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.164);
+}
+
+.feedback-submit-button:hover {
+    background-color: #ff4400; /* Darker green */
+}
+
+.success-message{
+    color: #1c9918;
+    font-weight: bold;
+}
+

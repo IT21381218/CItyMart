@@ -1,0 +1,59 @@
+.feedbackdetalsPage{
+  background: linear-gradient(135deg, #ff936b, #8b5fbf, #b16502);
+  background-blend-mode: overlay;
+}
+
+
+.feedback-container {
+    padding: 100px;
+    background-size: cover;
+    background-repeat: "no-repeat";
+    position: "absolute";
+    width: "100%";
+    height: "100%"
+  }
+
+  .feedback-container h2 {
+    font-weight: bold;
+  }
+
+/* style={{
+    backgroundImage:
+      "url(https://res.cloudinary.com/dwcxwpn7q/image/upload/v1682448274/Untitled-2_kws0wf.png)",
+    backgroundSize: "Cover",
+    backgroundRepeat: "no-repeat",
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+  }} */
+
+.feedback-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-details {
+    margin-bottom: 10px;
+}
+
+.play-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: #a875a6;
+}

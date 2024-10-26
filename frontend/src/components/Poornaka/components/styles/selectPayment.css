@@ -1,0 +1,70 @@
+.sp {
+    background: linear-gradient(135deg, #ff936b, #8b5fbf, #b16502);
+    background-blend-mode: overlay;
+}
+
+.Contact {
+    padding: 20px;
+  }
+  
+  .PaymentDetails {
+    margin-top: 20px;
+  }
+  
+  .PaymentItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .PaymentItem label {
+    cursor: pointer;
+  }
+  
+  .PaymentItem input[type="checkbox"] {
+    display: none;
+  }
+  
+  .PaymentItem input[type="checkbox"] + label {
+    display: inline-block;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .PaymentItem input[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .PaymentItem input[type="checkbox"]:checked + label:before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .PaymentItem input[type="checkbox"] + label:after {
+    content: '\2713';
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .PaymentItem input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  

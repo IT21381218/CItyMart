@@ -1,0 +1,73 @@
+/* navbar.css */
+
+.navbar {
+  background-color: #ffffffd3;
+  /* background-color: #11999E; */
+  padding: 0.1rem 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+  position: relative; /* Ensure relative positioning for pseudo-element */
+}
+
+.nav-links li a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  */
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  /* color: #11999E; */
+  color: #FF926B;
+}
+
+.nav-links li a.active {
+  font-weight: bold;
+}
+
+.nav-links li a.active::before {
+  content: ''; /* Add a pseudo-element */
+  position: absolute;
+  left: -12px; /* Adjust the position of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; /* Make a circle */
+  background-color: #FF926B; /* Color of the circle */
+}
+
+.navbar-logo {
+  max-width: 200px; 
+  width: auto;
+  height: auto;
+}
